@@ -12,15 +12,23 @@ class Pizzeria:
         self.izena=izena
         self.helbidea=helbidea
         self.telefonoa=telefonoa
-        
-class Edaria:
+class Eskaera:
+    def __init__(self):
+        print()        
+class Edaria(Eskaera):
     def __init__(self):
         print("kaixo")
-class Pizza:
+class Pizza(Eskaera):
     def __init__(self):  
         print("tu")
-class Dirua:
+class Ordaindu:
+    def __init__(self):
+        print()
+class Dirua(Ordaindu):
     def __init__(self):
         print("Milesker timatzeagatik.")
-
+class Txartela(Ordaindu):
+    def __init__(self):
+        print()
+        
      
