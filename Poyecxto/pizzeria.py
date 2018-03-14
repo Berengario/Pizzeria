@@ -19,5 +19,8 @@ class Edaria:
 class Pizza:
     def __init__(self):  
         print("tu")
-                
+class Dirua:
+    def __init__(self):
+        print("Milesker timatzeagatik.")
+
      
