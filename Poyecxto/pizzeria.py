@@ -16,8 +16,8 @@ class Pizzeria:
 class Edaria:
     def __init__(self):
         print("kaixo")
-class Janaria:
+class Pizza:
     def __init__(self):  
-        
+        print("tu")
                 
      
