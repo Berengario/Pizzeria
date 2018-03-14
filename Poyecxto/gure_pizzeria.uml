@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_rKS9wAv5EeiJyNjz4fElxA" name="RootElement">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_rNyWoAv5EeiJyNjz4fElxA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_OvlMcAwAEeiJyNjz4fElxA" name="Eskaera">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_KSFbYA2KEeitXMb19cn8bQ" name="ordaindu" type="_PzZZ4AwAEeiJyNjz4fElxA" association="_KSDmMA2KEeitXMb19cn8bQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_PzZZ4AwAEeiJyNjz4fElxA" name="Ordaindu"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_iSSW8A2IEeitXMb19cn8bQ" name="Edaria">
+    <generalization xmi:type="uml:Generalization" xmi:id="_S7_F4A2JEeitXMb19cn8bQ" general="_OvlMcAwAEeiJyNjz4fElxA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ijNu4A2IEeitXMb19cn8bQ" name="Pizza">
+    <generalization xmi:type="uml:Generalization" xmi:id="_SdWpIA2JEeitXMb19cn8bQ" general="_OvlMcAwAEeiJyNjz4fElxA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_pp0lMA2IEeitXMb19cn8bQ" name="Txartela">
+    <generalization xmi:type="uml:Generalization" xmi:id="_R6tPEA2JEeitXMb19cn8bQ" general="_PzZZ4AwAEeiJyNjz4fElxA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_w-uWMA2IEeitXMb19cn8bQ" name="Zenbakia">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_p6XioA2IEeitXMb19cn8bQ" name="Dirua">
+    <generalization xmi:type="uml:Generalization" xmi:id="_RVuSsA2JEeitXMb19cn8bQ" general="_PzZZ4AwAEeiJyNjz4fElxA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_zxicEA2IEeitXMb19cn8bQ" name="Bueltak">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_KSDmMA2KEeitXMb19cn8bQ" memberEnd="_KSFbYA2KEeitXMb19cn8bQ _KSGpgA2KEeitXMb19cn8bQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KSE0UA2KEeitXMb19cn8bQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KSE0UQ2KEeitXMb19cn8bQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_KSGpgA2KEeitXMb19cn8bQ" name="eskaera" type="_OvlMcAwAEeiJyNjz4fElxA" association="_KSDmMA2KEeitXMb19cn8bQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_UclHUCIAEeiN4KMv7xiunA" name="Pizzeria">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Zfiq4iIAEeiN4KMv7xiunA" name="eskaera" type="_OvlMcAwAEeiJyNjz4fElxA" association="_ZfY54CIAEeiN4KMv7xiunA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gePiYCIAEeiN4KMv7xiunA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_geZTYCIAEeiN4KMv7xiunA" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_FQXCYCONEeizMpnLqmXlsQ" name="Izena">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_GD274CONEeizMpnLqmXlsQ" name="Helbidea">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_GJEzECONEeizMpnLqmXlsQ" name="Telefonoa">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ZfY54CIAEeiN4KMv7xiunA" memberEnd="_Zfiq4iIAEeiN4KMv7xiunA _Zfiq4yIAEeiN4KMv7xiunA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Zfiq4CIAEeiN4KMv7xiunA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Zfiq4SIAEeiN4KMv7xiunA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Zfiq4yIAEeiN4KMv7xiunA" name="pizzeria" type="_UclHUCIAEeiN4KMv7xiunA" association="_ZfY54CIAEeiN4KMv7xiunA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cowekCIAEeiN4KMv7xiunA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_co6PkCIAEeiN4KMv7xiunA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>
