@@ -6,6 +6,18 @@
       <layoutConstraint xmi:type="notation:Location" xmi:id="_OvnBpAwAEeiJyNjz4fElxA" y="5"/>
     </children>
     <children xmi:type="notation:BasicCompartment" xmi:id="_OvnosAwAEeiJyNjz4fElxA" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_whVV0CeCEeibh6L3cuJLBg" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="gure_pizzeria.uml#_whCa4CeCEeibh6L3cuJLBg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_whVV0SeCEeibh6L3cuJLBg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_2VDn8CeCEeibh6L3cuJLBg" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="gure_pizzeria.uml#_2UwF8CeCEeibh6L3cuJLBg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_2VDn8SeCEeibh6L3cuJLBg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_31eR0CeCEeibh6L3cuJLBg" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="gure_pizzeria.uml#_31Ug0CeCEeibh6L3cuJLBg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_31eR0SeCEeibh6L3cuJLBg"/>
+      </children>
       <styles xmi:type="notation:TitleStyle" xmi:id="_OvnosQwAEeiJyNjz4fElxA"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_OvnosgwAEeiJyNjz4fElxA"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_OvnoswwAEeiJyNjz4fElxA"/>
@@ -24,7 +36,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OvnovgwAEeiJyNjz4fElxA"/>
     </children>
     <element xmi:type="uml:Class" href="gure_pizzeria.uml#_OvlMcAwAEeiJyNjz4fElxA"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OvnBoQwAEeiJyNjz4fElxA" x="406" y="301"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OvnBoQwAEeiJyNjz4fElxA" x="406" y="301" width="116" height="107"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_PzaoAAwAEeiJyNjz4fElxA" type="Class_Shape">
     <children xmi:type="notation:DecorationNode" xmi:id="_PzbPEAwAEeiJyNjz4fElxA" type="Class_NameLabel"/>
@@ -58,6 +70,14 @@
       <layoutConstraint xmi:type="notation:Location" xmi:id="_iSUzNA2IEeitXMb19cn8bQ" y="5"/>
     </children>
     <children xmi:type="notation:BasicCompartment" xmi:id="_iSUzNQ2IEeitXMb19cn8bQ" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_HI9qACeDEeibh6L3cuJLBg" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="gure_pizzeria.uml#_HIqvECeDEeibh6L3cuJLBg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HI9qASeDEeibh6L3cuJLBg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_JYXg0CeDEeibh6L3cuJLBg" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="gure_pizzeria.uml#_JXv1wCeDEeibh6L3cuJLBg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_JYXg0SeDEeibh6L3cuJLBg"/>
+      </children>
       <styles xmi:type="notation:TitleStyle" xmi:id="_iSUzNg2IEeitXMb19cn8bQ"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_iSUzNw2IEeitXMb19cn8bQ"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_iSUzOA2IEeitXMb19cn8bQ"/>
@@ -84,6 +104,14 @@
       <layoutConstraint xmi:type="notation:Location" xmi:id="_ijPkEQ2IEeitXMb19cn8bQ" y="5"/>
     </children>
     <children xmi:type="notation:BasicCompartment" xmi:id="_ijPkEg2IEeitXMb19cn8bQ" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_RFwDQCeDEeibh6L3cuJLBg" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="gure_pizzeria.uml#_RFlEICeDEeibh6L3cuJLBg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_RFwDQSeDEeibh6L3cuJLBg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_ResuwCeDEeibh6L3cuJLBg" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="gure_pizzeria.uml#_ReZz0CeDEeibh6L3cuJLBg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ResuwSeDEeibh6L3cuJLBg"/>
+      </children>
       <styles xmi:type="notation:TitleStyle" xmi:id="_ijPkEw2IEeitXMb19cn8bQ"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_ijPkFA2IEeitXMb19cn8bQ"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_ijPkFQ2IEeitXMb19cn8bQ"/>

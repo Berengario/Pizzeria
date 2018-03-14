@@ -5,13 +5,34 @@
   </packageImport>
   <packagedElement xmi:type="uml:Class" xmi:id="_OvlMcAwAEeiJyNjz4fElxA" name="Eskaera">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_KSFbYA2KEeitXMb19cn8bQ" name="ordaindu" type="_PzZZ4AwAEeiJyNjz4fElxA" association="_KSDmMA2KEeitXMb19cn8bQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_whCa4CeCEeibh6L3cuJLBg" name="kodigoa">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_2UwF8CeCEeibh6L3cuJLBg" name="Telefonoa">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_31Ug0CeCEeibh6L3cuJLBg" name="Helbidea">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_PzZZ4AwAEeiJyNjz4fElxA" name="Ordaindu"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_iSSW8A2IEeitXMb19cn8bQ" name="Edaria">
     <generalization xmi:type="uml:Generalization" xmi:id="_S7_F4A2JEeitXMb19cn8bQ" general="_OvlMcAwAEeiJyNjz4fElxA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_HIqvECeDEeibh6L3cuJLBg" name="Izena">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_JXv1wCeDEeibh6L3cuJLBg" name="Zenbat">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_ijNu4A2IEeitXMb19cn8bQ" name="Pizza">
     <generalization xmi:type="uml:Generalization" xmi:id="_SdWpIA2JEeitXMb19cn8bQ" general="_OvlMcAwAEeiJyNjz4fElxA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_RFlEICeDEeibh6L3cuJLBg" name="Izena">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ReZz0CeDEeibh6L3cuJLBg" name="Zenbat">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_pp0lMA2IEeitXMb19cn8bQ" name="Txartela">
     <generalization xmi:type="uml:Generalization" xmi:id="_R6tPEA2JEeitXMb19cn8bQ" general="_PzZZ4AwAEeiJyNjz4fElxA"/>
