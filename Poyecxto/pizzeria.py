@@ -30,5 +30,7 @@ class Dirua(Ordaindu):
 class Txartela(Ordaindu):
     def __init__(self):
         print()
-        
+
+
+print("Hau testing branch-a probatzeko egin dugu txo!")
      
