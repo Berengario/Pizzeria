@@ -33,4 +33,3 @@ class Txartela(Ordaindu):
 
 
 print("Hau testing branch-a probatzeko egin dugu txo!")
-     
