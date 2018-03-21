@@ -33,3 +33,39 @@ class Txartela(Ordaindu):
 
 
 print("Hau testing branch-a probatzeko egin dugu txo!")
+
+print("Bai txo!")
+
+print("Ey txo!")
+
+print("Kaka txo!")
+
+print("69 txo!")
+
+print("Ez txo!")
+
+print("Garagardo bat txo!")
+
+print("Edo bi txo!")
+
+print("Hiru hobeto txo!")
+
+print("Lau be txo!")
+
+print("Benga ba 15 txo!")
+
+print("Que pedo txo!")
+
+print("Ya te digo txo!")
+
+print("Etxera txo!")
+
+print("Afterrera txo!")
+
+print("Goazen txo!")
+
+print("M txo!")
+
+print("Ona txo!")
+
+
